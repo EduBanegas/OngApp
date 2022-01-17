@@ -1,0 +1,195 @@
+html {
+    font-size: 16px;
+    font-family: 'Ubuntu', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+
+    width: 70%;
+    height: auto;
+
+    background: rgba(243, 243, 243, 0.54);
+    
+    
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    
+    margin: 4rem auto 4rem auto;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    height: 100%;
+    width: 50%;
+
+    margin-left: 1rem;
+}
+.div2 h1 {
+    color: #2EC4B6;
+    font-size: 2rem;
+
+    margin: 0;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+.div2 h4 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.div2 a {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 50%;   
+
+    margin-left: 1rem;
+    margin-top: auto;
+}
+.div3 h4 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+
+.transactionDiv {
+    background-color: white;
+    font-size: 15px;
+    width: 400px;
+    height: 20px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3px;
+    color: rgb(47, 47, 47);
+}
+
+.userContainer {
+    width: 80%;
+    margin: 3rem auto 3rem auto;
+
+    border-radius: 23px;
+    border: 1px solid #C8C8C8;
+}
+
+.containerButtonTabs {
+    min-width: 20%;
+}
+
+
+.divContainerinfo {
+    background-color: lawngreen;
+    width: 20rem;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.divContainerinfo h5 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    html { 
+        font-size: 15px;
+    }
+} */
+
+/* 
+@media screen and (max-width: 1024px) {
+    html { 
+        font-size: 14px;
+    }
+} */
+
+
+/* 
+@media screen and (max-width: 768px) {
+    html { 
+        font-size: 13px;
+    }
+
+    .div2 h1 {
+        font-size: 1.5rem;
+    }
+} */
+
+
+/* 
+@media screen and (max-width: 580px) {
+    html { 
+        font-size: 13px;
+    }
+
+    .div2 h4 {
+        font-size: .9rem;
+    }
+
+    .div3 h4 {
+        font-size: .9rem;
+    }
+}
+ */
+
+/* @media screen and (max-width: 480px) {
+    html { 
+        font-size: 12px;
+    }
+
+    .containerButtonTabs {
+        min-width: 35%;
+    }
+
+    .userContainer button {
+        font-size: .9rem;
+        margin: 0;
+        padding: 0;
+    }
+} */
+
+
+/* 
+@media screen and (max-width: 320px) {
+    html { 
+        font-size: 12px;
+    }
+
+    .parent {
+        width: 90%;
+        height: auto;
+    }
+
+
+    .div2 h4 {
+        font-size: .8rem;
+    }
+
+    .div3 h4 {
+        font-size: .8rem;
+    }
+
+    .userContainer button {
+        font-size: .7rem;
+    }
+
+} */
